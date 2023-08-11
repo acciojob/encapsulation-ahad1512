@@ -7,6 +7,6 @@ public class Main {
 //        System.out.println(rwOnly.name);
 //        name has private access in com.driver.RWOnly
         rwOnly.setName("Ahad");
-        rwOnly.getName();
+        String name = rwOnly.getName();
     }
 }
